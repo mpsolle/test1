@@ -20,11 +20,11 @@ package edu.unca.mpsolle.ArchetypeTest;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class MyPlugin extends JavaPlugin {
+public class ArchetypeTest extends JavaPlugin {
 
 	//ClassListeners
-	private final MyCommandExecutor commandExecutor = new MyCommandExecutor(this);
-	private final MyEventListener eventListener = new MyEventListener(this);
+	private final ArchetypeTestCommandExecutor commandExecutor = new ArchetypeTestCommandExecutor(this);
+	private final ArchetypeTestEventListener eventListener = new ArchetypeTestEventListener(this);
 	//ClassListeners
 
 	public void onDisable() {
